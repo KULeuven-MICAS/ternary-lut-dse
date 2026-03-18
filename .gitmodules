@@ -1,0 +1,3 @@
+[submodule "chisel-float"]
+	path = chisel-float
+	url = https://github.com/KULeuven-MICAS/chisel-float.git

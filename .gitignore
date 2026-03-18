@@ -1,0 +1,31 @@
+# SBT build artifacts
+target/
+project/target/
+project/project/
+.bloop
+
+# Generated Verilog
+generated/
+
+# Test artifacts
+test_run_dir/
+test_dir/
+
+# Logs
+logs/
+
+# IDE files
+.idea/
+.bsp/
+.metals/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Verilator artifacts
+*.vcd
+*.o
+*.a
+
