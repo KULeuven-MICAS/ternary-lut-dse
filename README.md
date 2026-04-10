@@ -9,6 +9,8 @@ This repository provides an **open-source, parameterizable hardware generator** 
 
 Instead of using multipliers, LUT-based architectures precompute all ternary combinations (`{-1, 0, +1}`) of a group of input activations and store them in a lookup table. During the fetch phase, encoded weight indices select the corresponding precomputed partial sums from the LUT, which are then accumulated to produce the output. This avoids multiplications entirely, replacing them with additions and MUX lookups.
 
+![High-level architecture of the LUT-based ternary matrix multiplication accelerator](docs/images/architecture_overview.png)
+
 The generator is parameterized by:
 
 | Parameter | Code name | Description |
